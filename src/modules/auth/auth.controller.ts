@@ -7,6 +7,14 @@
  * @description Este controlador maneja las operaciones relacionadas con la autenticación,
  * incluido el registro, inicio de sesión, verificación, restablecimiento de contraseña
  * y autenticación con Google OAuth.
+ * @repository https://github.com/ulfredoc/comercial-bss
+ * @branch main
+ * @module auth
+ * @since 0.1.0
+ * @version 1.0.0
+ * @see {@link https://github.com/ulfredoc/comercial-bss/blob/main/README.md|Documentación del proyecto}
+ * @license MIT
+ * @commits {@link https://github.com/ulfredoc/comercial-bss/commits/main/src/modules/auth/auth.controller.ts|Historial de cambios}
  */
 
 import { Controller, Post, Body, HttpCode, HttpStatus, UseGuards, Req, Get, Logger } from '@nestjs/common';
